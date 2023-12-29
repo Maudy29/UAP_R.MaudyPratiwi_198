@@ -12,7 +12,7 @@
 </div>
 
 ### Authors
-- Irham Bagus J 
+- Raras Maudy Pratiwi - 202010370311198 
 
 ## Dataset
 Dataset yang dipakai adalah dari modul sebelumnya. [Berikut link dataset.]((https://drive.google.com/drive/folders/1-5efasTceqGvxi10wCaU3FzjeEnybOyw?usp=sharing))
