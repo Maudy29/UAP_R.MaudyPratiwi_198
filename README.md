@@ -32,10 +32,10 @@ Deep learning bertujuan untuk membuat mesin atau program komputer dapat belajar 
 Model
 |   Training and Validation accuracy | Training and Validation loss |
 | <div>
-    <img src="gambar/rps.jpg" alt="dataset" width="75%">
+    <img src="gambar/accuracy.jpeg" alt="dataset" width="75%">
 </div>
 | <div>
-    <img src="gambar/rps.jpg" alt="dataset" width="75%">
+    <img src="gambar/loss.jpeg" alt="dataset" width="75%">
 </div>
 |
 
