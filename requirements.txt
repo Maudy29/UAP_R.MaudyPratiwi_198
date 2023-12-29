@@ -1,0 +1,6 @@
+numpy
+opencv-python
+flask
+tensorflow
+livereload
+pillow

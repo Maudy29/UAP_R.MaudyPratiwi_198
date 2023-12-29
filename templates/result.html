@@ -1,0 +1,53 @@
+<!-- Table-section -->
+<section class="contact-section" id="result" style="padding-bottom: 50px; background-color: #c1a206; display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div class="container" style="background-color: #02322c; padding: 20px; border-radius: 10px;">
+        <div class="title-box centred" style="padding-top: 20px; padding-bottom: 20px;">
+            <div class="sec-title" style="color: #ff38af; text-align: center;">Prediction Result</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 content-column">
+                <div class="inner-content">
+                    <div class="contact-form-area">
+                        <h2 style="color: #9bafff; text-transform: capitalize; font-size: 25px; font-weight: bold; text-align: center;">{{ model }} Model</h2>
+                        <p style="color: #ffd8d8; text-transform: capitalize; font-size: 18px; font-weight: bold; text-align: center;">Predicted Label: {{ labels[pred] }}</p>
+                        <p style="color: #ffd7d7; font-size: 16px; text-align: center;">Accuracy: {{ (probs|max) }}%</p>
+                        <p style="color: #ffe0e0; font-size: 16px; text-align: center;">Prediction Time: {{ (run_time) }} seconds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 sidebar-column">
+                <div class="sidebar-content">
+                    <img src="{{ url_for('static', filename=img) }}" alt="Input Image" class="img-fluid result-image" style="margin: 0 auto; display: block;">
+                    <p style="font-size: 20px; text-align: center; color: #5e72e4; font-weight: bold;">Input Image</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- final-section end -->
+
+<style>
+    .progress-container {
+        width: 100%;
+        background-color: #053d3d;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .progress-bar {
+        width: 0%;
+        height: 30px;
+        background-color: rgb(180, 195, 215);
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+    }
+
+    .result-image {
+        height: 300px;
+        width: 300px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+</style>
