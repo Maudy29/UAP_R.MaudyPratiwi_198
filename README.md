@@ -6,7 +6,7 @@
 
 <h1 align="center">Rock, Paper, Scissors Prediction</h1>
   <p align="center">
-    Projek ini mengambil dataset citra pada modul sebelumnya
+    
   </p>
 </div>
 
