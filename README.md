@@ -6,8 +6,7 @@
 
 <h1 align="center">Rock, Paper, Scissors Prediction</h1>
   <p align="center">
-    This project focuses on creating a deep learning model to predict
-    images of rock, paper, scissors.
+    Projek ini mengambil dataset citra pada modul sebelumnya
   </p>
 </div>
 
