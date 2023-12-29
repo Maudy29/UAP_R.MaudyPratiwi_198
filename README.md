@@ -31,13 +31,13 @@ Deep learning bertujuan untuk membuat mesin atau program komputer dapat belajar 
 ### Model Training
 Model
 |   Training and Validation accuracy | Training and Validation loss |
-| <div>
+ <div>
     <img src="gambar/accuracy.jpeg" alt="dataset" width="75%">
 </div>
-| <div>
+ <div>
     <img src="gambar/loss.jpeg" alt="dataset" width="75%">
 </div>
-|
+
 
 ### Model Evaluation
 Setelah model dilatih, dataset pengujian digunakan untuk mengevaluasi model.
